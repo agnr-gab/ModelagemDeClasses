@@ -6,9 +6,9 @@ public class Carro {
     int qtdPortasCarro;
     String modelo;
     String marca;
-    String potencia = 2.0;
+    double potencia = 2.0;
 
-    public Carro (int qtdPortasCarro, String modelo, String marca, String potencia) {
+    public Carro (int qtdPortasCarro, String modelo, String marca, double potencia) {
         this.qtdPortasCarro = qtdPortasCarro;
         this.modelo = modelo;
         this.marca = marca;

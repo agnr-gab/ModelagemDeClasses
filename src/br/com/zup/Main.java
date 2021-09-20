@@ -20,5 +20,6 @@ public class Main {
 
         Pessoa pessoa1 = new Pessoa("Maria", "38", "70", "1.70");
         System.out.println("___Classe Pessoa___");
+        System.out.println("Nome: " +pessoa1.nome);
     }
 }
