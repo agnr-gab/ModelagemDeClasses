@@ -6,6 +6,8 @@ public class PaisLevelUp {
     double tamanhoPop;
 
     public PaisLevelUp (String nomePais, double extensaoTerritorial, double tamanhoPop) {
-
+    this.nomePais = nomePais;
+    this.extensaoTerritorial = extensaoTerritorial;
+    this.tamanhoPop = tamanhoPop;
     }
 }
