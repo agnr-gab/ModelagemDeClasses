@@ -4,12 +4,12 @@ package br.com.zup;
 public class ContaCorrente {
     String numeroConta;
     String nomeCorrentista;
-    double saldo;
+    double saldo = 0;
 
     public ContaCorrente(String numeroConta, String nomeCorrentista, double saldo) {
         this.numeroConta = numeroConta;
         this.nomeCorrentista = nomeCorrentista;
-        this.saldo = 0;
+        this.saldo = saldo;
 
     }
 }
