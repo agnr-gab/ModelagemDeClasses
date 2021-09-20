@@ -22,16 +22,22 @@ public class Main {
 
         Pessoa pessoa1 = new Pessoa("Maria João Silva Sauro", "38", "70", "1.70");
         System.out.println("___Classe Pessoa___");
-        System.out.println("Nome: " +pessoa1.nome);
-        System.out.println("Idade: " +pessoa1.idade+ " anos");
-        System.out.println("Peso: " +pessoa1.peso+ " kg");
-        System.out.println("Altura: " +pessoa1.altura+ " m");
+        System.out.println("Nome: " + pessoa1.nome);
+        System.out.println("Idade: " + pessoa1.idade + " anos");
+        System.out.println("Peso: " + pessoa1.peso + " kg");
+        System.out.println("Altura: " + pessoa1.altura + " m");
 
         Pessoa pessoa2 = new Pessoa("Joana Maria", "46", "65", "1.56");
         System.out.println("___Classe Pessoa___");
-        System.out.println("Nome: " +pessoa2.nome);
-        System.out.println("Idade: " +pessoa2.idade+ " anos");
-        System.out.println("Peso: " +pessoa2.peso+ " kg");
-        System.out.println("Altura: " +pessoa2.altura+ " m");
+        System.out.println("Nome: " + pessoa2.nome);
+        System.out.println("Idade: " + pessoa2.idade + " anos");
+        System.out.println("Peso: " + pessoa2.peso + " kg");
+        System.out.println("Altura: " + pessoa2.altura + " m");
+
+        ContaCorrente conta1 = new ContaCorrente("001001", "MARA F G CUNHA", "3.900,00");
+        System.out.println("___Classe Conta Corrente___");
+        System.out.println("Numero da Conta: " +conta1.numeroConta);
+        System.out.println("Nome do Correntista: "+conta1.nomeCorrentista);
+        System.out.println("Saldo em conta: R$ "+conta1.saldo);
     }
 }

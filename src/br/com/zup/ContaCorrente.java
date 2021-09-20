@@ -4,9 +4,9 @@ package br.com.zup;
 public class ContaCorrente {
     String numeroConta;
     String nomeCorrentista;
-    double saldo = 0;
+    String saldo = "0";
 
-    public ContaCorrente(String numeroConta, String nomeCorrentista, double saldo) {
+    public ContaCorrente(String numeroConta, String nomeCorrentista,String saldo) {
         this.numeroConta = numeroConta;
         this.nomeCorrentista = nomeCorrentista;
         this.saldo = saldo;
