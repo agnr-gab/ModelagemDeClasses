@@ -12,5 +12,6 @@ public class Carro {
         this.qtdPortasCarro = qtdPortasCarro;
         this.modelo = modelo;
         this.marca = marca;
+        this.potencia = potencia;
     }
 }
